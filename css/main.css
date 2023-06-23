@@ -128,3 +128,10 @@ p {
   text-transform: none;
   margin: 0px;
 }
+
+.posters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
