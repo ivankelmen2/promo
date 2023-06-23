@@ -1,0 +1,130 @@
+body {
+  background: black;
+
+  color: white;
+  font-family: 'Mabry Pro';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  padding: 20px;
+
+  overflow-x: hidden;
+
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > a {
+  /* height: 15px; */
+
+  border: 1.5px solid #FFFFFF;
+  border-radius: 100px;
+
+  padding: 0.8em 1em;
+
+  transition: .3s;
+
+  display: inline-block;
+}
+
+header > a:hover {
+  background: white;
+  color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+
+footer > a {
+  opacity: 30%;
+  transition: .3s;
+}
+
+footer > a:hover {
+  opacity: 100%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7em;
+  line-height: 93%;
+  margin-bottom: 0px;
+  /* word-wrap: break-word; */
+}
+
+a:active,
+a:hover,
+a:visited,
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.space {
+  width: 100%;
+  height: auto;
+}
+
+.more {
+  position: absolute;
+  left: 70%;
+  /* top: 60%; */
+}
+
+.chemp {
+  position: absolute;
+  top: 37vh;
+  left: 30vw;
+}
+
+.ship {
+  background-image: url(../img/ship_arena.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  height: 790px;
+  width: 58%;
+
+  margin-left: auto;
+  margin-right: 0;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-top: 75px;
+}
+
+.ship_text > h1 {
+  margin-top: 0px;
+  width: 50%;
+}
+
+.book {
+  width: 100%;
+}
+
+p {
+  width: 30%;
+  text-align: left;
+  text-transform: none;
+  margin: 0px;
+}
